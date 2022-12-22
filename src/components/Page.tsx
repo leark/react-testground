@@ -4,6 +4,7 @@ import update from 'immutability-helper'
 import { Column } from './Column'
 import { Container } from './Container'
 import { ItemTypes } from '../ItemTypes'
+import { useDragDropManager } from 'react-dnd'
 
 interface ContainerState {
   accepts: string[]
